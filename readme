@@ -1,0 +1,42 @@
+HOUDINI PLAYBLAST TOOL v0.1
+===========================
+Date : 16 Sept 2014
+Author: Rajiv Sharma
+Email : rajiv.vfx@gmail.com
+Website: www.rajivpandit.wordpress.com
+
+Tutorial : http://rajivpandit.wordpress.com/2014/09/14/houdiniplayblast/
+
+
+Installation Setup:
+==================
+copy python file in Houdini Python path folder
+for Example: /home/rsharma/houdini13.0/python
+Tip: add following line in houdini.env  
+PYTHONPATH=/home/rsharma/houdini13.0/python
+
+copy otl in your otl folder
+for Example: /home/rsharma/houdini13.0/otls
+
+to use 'build mov' feature you must have FFMpeg (ffmpeg version 2.2.4) install in your system
+
+description:
+============
+This is Backend script for Houdini Playblast Tool.
+HoudiniPlayblastTool is a small application for manage preview (Playblast) versions.
+Feature of this tool :
+1.Create preview and save automatically in proper location.
+2.Maintain a complete list of saved playblast with version notes.
+3.Version History window will display all versions.
+4.Version History support multiple users.
+5.from Version History You Can load any preview in mplay in a single click
+6.This tool can also build movie(.mp4) if you turn on 'Build Mov'.
+7.Open Recent created preview
+8.Add notes to versions
+9.publish previews to publish location
+10. publish multiple selected previews in asset location
+11. display a complete history of preview publish
+12. customize paths easily
+13. choose player
+14. Email Notification after playblast done
+
